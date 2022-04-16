@@ -1,0 +1,29 @@
+{
+    "editor.defaultFormatter": "octref.vetur",
+    "vetur.format.defaultFormatter.html": "prettier",
+    "vetur.format.defaultFormatter.css": "prettier",
+    "vetur.format.defaultFormatter.postcss": "prettier",
+    "vetur.format.defaultFormatter.scss": "prettier",
+    "vetur.format.defaultFormatter.less": "prettier",
+    "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+    "vetur.format.defaultFormatter.js": "prettier",
+    "vetur.format.defaultFormatter.ts": "prettier",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": [
+        "source.organizeImports",
+        "source.fixAll"
+    ],
+    "editor.formatOnSave": false,
+    "javascript.format.enable": false,
+    "eslint.alwaysShowStatus": true,
+    "eslint.options": {
+    "extensions": [ ".html", ".js", ".vue", ".jsx", ".ts" ]
+    },
+    "eslint.validate": [ "javascript", "vue", "html", "typescriptvue", "typescript" ],
+    "eslint.workingDirectories": [
+        "./client"
+    ],
+    "files.eol": "\n"
+}

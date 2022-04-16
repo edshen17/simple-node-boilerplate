@@ -1,0 +1,27 @@
+{
+  "name": "redis-cache-tutorial",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "devDependencies": {
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "chai": "^4.3.6",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "mocha": "^9.2.2",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "test": "mocha --no-timeouts --parallel --exit -r ts-node/register --require fixtures.ts **/*.test.ts"
+  },
+  "author": "Edwin Shen",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
